@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
-    use super::*; // Import everything from the outer module.
-
+    extern crate untitled;
+    use untitled::TaskList;
     #[test]
     fn test_new_task_list_is_empty() {
         let task_list = TaskList::new();
